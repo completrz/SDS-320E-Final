@@ -54,6 +54,7 @@ names(df_original)
 # calculate active round duration prep
 head(df_original[, c("round_start_tick", "freeze_end_tick", "round_end_tick", "round_duration_s")])
 #Note: Uses 64 ticks per second
+
 #calculate active round duration
 df_original$active_round_duration_s <- (df_original$round_end_tick - df_original$freeze_end_tick) / 64
 summary(df_original$active_round_duration_s)
