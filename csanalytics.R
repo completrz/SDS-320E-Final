@@ -16,7 +16,7 @@ df_variables <- df[, c(
 )]
 
 # Export without cleaning
-write.csv(df_final, "csdata.csv", row.names = FALSE)
+write.csv(df_variables, "Dataset/csdata.csv", row.names = FALSE)
 
 # View dataset
-View(df_final)
+View(df_variables)
