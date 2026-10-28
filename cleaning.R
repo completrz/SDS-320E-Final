@@ -68,7 +68,7 @@ df_clean <- df_original[!is.na(df_original$opening_kill_seconds), ]
 # verify
 nrow(df_clean)
 
-# Select one round per match (random)
+# Select one round per match (random, but not random overall)
 #seed
 set.seed(123)
 #randomize
