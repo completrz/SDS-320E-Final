@@ -7,3 +7,6 @@ date: "2026-10-28"
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+Introduction: (refer to canvas for what to include)
+
+Research Questions:
