@@ -23,7 +23,7 @@ hist(df$active_round_duration_s,
 summary(df$active_round_duration_s)
 sd(df$active_round_duration_s)
 ```
-Active Round Duration appears to have a mostly normal distribution with a mean of 82.68 seconds and median of 80.92 seconds. It also has a standard deviation of 30.78 seconds.
+Active Round Duration appears to have a mostly normal distribution with a mean of 82.68 seconds and a standard deviation of 30.78 seconds.
 
 ## Descriptive Analysis of Numeric Explanatory Variable
 ```{r}
@@ -41,7 +41,7 @@ plot(df$active_round_duration_s ~ df$opening_kill_seconds, data = df,
      ylab = " Active Round Duration (s)",
      col = "#eda338")
 ```
-Opening kill has a right-skewed distribution with a mean of 31.99 seconds and a median of 25.13 seconds. It also has a standard deviation of 21.23 seconds. It has an IQR of 25.82 seconds and possibly some outliers. The scatterplot displays a positive association between the opening kill and the active round duration.
+Opening kill has a right-skewed distribution with a median of 25.13 seconds, an IQR of 25.82 seconds and possibly some outliers. The scatterplot displays a positive association between the opening kill and the active round duration.
 
 ## Investigation of Categorical Explanatory Variable
 ```{r}
