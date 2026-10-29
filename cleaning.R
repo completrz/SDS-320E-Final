@@ -91,3 +91,6 @@ colSums(is.na(df))
 table(df$winner_side)
 
 write.csv(df, "Dataset/csdata_clean.csv", row.names = FALSE)
+
+#Number of removed rows
+nrow(df_original) - nrow(df)
