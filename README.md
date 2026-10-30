@@ -47,7 +47,7 @@ Descriptive analysis includes:
 
 ## Project Timeline
 
-![Project timeline progress](assets/project-progress.svg)
+![Project timeline progress](timeline/assets/project-progress.svg)
 
 | Milestone | Due Date | Status |
 |---|---|---|
