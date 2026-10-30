@@ -1,0 +1,29 @@
+name: Update README timeline
+
+on:
+  schedule:
+    - cron: '15 14 * * *' # Daily, in the morning Central Time
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh-timeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate daily project timeline
+        run: python scripts/update_timeline.py
+      - name: Commit updated timeline if it changed
+        run: |
+          if ! git diff --quiet -- assets/project-progress.svg; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add assets/project-progress.svg
+            git commit -m "Update project timeline"
+            git push
+          fi
