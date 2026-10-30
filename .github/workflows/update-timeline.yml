@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.12'
       - name: Generate daily project timeline
-        run: python scripts/update_timeline.py
+        run: python timeline/scripts/update_timeline.py
       - name: Commit updated timeline if it changed
         run: |
           if ! git diff --quiet -- assets/project-progress.svg; then
