@@ -56,6 +56,14 @@ Descriptive analysis includes:
 - [ ] Statistical inference
 - [ ] Final conclusions
 
+## Project Timeline
+
+| Milestone | Due Date |
+|---|---|
+| Project Proposal | September 18, 2026 |
+| Descriptive Analysis | November 6, 2026 |
+| Final Project | December 4, 2026 |
+
 ## Tools
 
 - R
