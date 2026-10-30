@@ -45,16 +45,15 @@ Descriptive analysis includes:
 - A bar chart of winning-side frequencies.
 - Side-by-side boxplots comparing active round duration by winning side.
 
-## Project Status
+## Project Timeline
 
-**In progress**
+![Project Progress](https://year-in-progress.vercel.app/year-progress?startDate=2026-09-18&endDate=2026-12-04&theme=dark)
 
-- [x] Data collection
-- [x] Data cleaning and preprocessing
-- [x] Descriptive statistics
-- [x] Exploratory visualizations
-- [ ] Statistical inference
-- [ ] Final conclusions
+| Milestone | Due Date | Status |
+|---|---|---|
+| Project Proposal | Sep 18, 2026 | ✅ Completed |
+| Descriptive Analysis | Nov 6, 2026 | 🔄 In Progress |
+| Final Project | Dec 4, 2026 | ⏳ Upcoming |
 
 ## Project Timeline
 
