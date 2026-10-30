@@ -47,21 +47,15 @@ Descriptive analysis includes:
 
 ## Project Timeline
 
-![Project Progress](https://year-in-progress.vercel.app/year-progress?startDate=2026-09-18&endDate=2026-12-04&theme=dark)
+![Project timeline progress](assets/project-progress.svg)
 
 | Milestone | Due Date | Status |
 |---|---|---|
-| Project Proposal | Sep 18, 2026 | ✅ Completed |
-| Descriptive Analysis | Nov 6, 2026 | 🔄 In Progress |
-| Final Project | Dec 4, 2026 | ⏳ Upcoming |
+| Project Proposal | September 18, 2026 | Completed |
+| Descriptive Analysis | November 6, 2026 | In progress |
+| Final Project | December 4, 2026 | Upcoming |
 
-## Project Timeline
-
-| Milestone | Due Date |
-|---|---|
-| Project Proposal | September 18, 2026 |
-| Descriptive Analysis | November 6, 2026 |
-| Final Project | December 4, 2026 |
+*The bar tracks elapsed calendar time, not the amount of work completed. It updates daily via GitHub Actions.*
 
 ## Tools
 
