@@ -3,7 +3,7 @@ hist(df$active_round_duration_s,
      main = "Active Round Duration Distribution",
      xlab = "Active Round Duration (s)",
      ylab = "Frequency",
-     col = "#eda338")
+     col = "#FF0000")
 summary(df$active_round_duration_s)
 sd(df$active_round_duration_s)
 
@@ -12,14 +12,14 @@ hist(df$opening_kill_seconds,
      main = "Opening Kill Distribution",
      xlab = "Opening Kill Distribution (s)",
      ylab = "Frequency",
-     col = "#eda338")
+     col = "#FF0000")
 summary(df$opening_kill_seconds)
 sd(df$opening_kill_seconds)
 plot(df$active_round_duration_s ~ df$opening_kill_seconds, data = df,
      main = "Opening Kill (s) vs Active Round Duration (s)",
      xlab = "Opening Kill (s)",
      ylab = " Active Round Duration (s)",
-     col = "#eda338")
+     col = "#FF0000")
 
 #Investigation of Categorical Explanatory Variable:
 winner_table <- table(df$winner_side)
