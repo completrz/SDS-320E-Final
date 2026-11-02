@@ -72,3 +72,5 @@ The original matches were not randomly sampled from all professional CS2 matches
 ## Project Context
 
 Developed for SDS 320E at The University of Texas at Austin.
+
+AI was used to assist with R programming, debugging, and reviewing explanations.
