@@ -5,8 +5,8 @@ Among rounds of CS2 matches, how is the round duration associated with the winni
 - BCEV: winner_side
 '
 
+#import libraries
 library(arrow)
-
 
 # Download dataset
 url <- "https://huggingface.co/datasets/blanchon/opencs2_dataset/resolve/main/index/rounds.parquet"

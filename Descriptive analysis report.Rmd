@@ -1,8 +1,16 @@
 ---
-title: "Descriptive Analysis Report"
 output: pdf_document
-date: "2026-10-30"
+fontsize: 12pt
+geometry: margin=1in
 ---
+
+\begin{center}
+{\large\textbf{Descriptive Analysis: Counter-Strike 2 Round Duration}}\\[0.5em]
+Nicholas Hinkel\\
+University of Texas at Austin | SDS 320E\\
+Professor Lauren Blondeau | October 30, 2026
+\end{center}
+
 
 ```{r setup, include=FALSE}
 df <- read.csv("Dataset/csdata_clean.csv")
@@ -61,3 +69,6 @@ boxplot(df$active_round_duration_s ~ df$winner_side, data = df,
         col = c("#5d79ae", "#eda338"))
 ```
 The barplot shows that CT had a greater win amount of 203 wins (56.55%) than T had with 156 wins (43.45%). The grouped boxplot displays that CT and T have a similar spread, with T having a slightly higher median. 
+
+### AI Use Disclosure
+AI was used to assist with R programming, debugging, and reviewing explanations.
