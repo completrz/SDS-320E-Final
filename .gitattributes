@@ -1,1 +1,1 @@
-timeline/*.py linguist-vendored
+timeline/**/*.py linguist-vendored
