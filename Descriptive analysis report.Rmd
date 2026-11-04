@@ -29,6 +29,7 @@ hist(df$active_round_duration_s,
      ylab = "Frequency",
      col = "#FF0000")
 summary(df$active_round_duration_s)
+# Standard Deviation
 sd(df$active_round_duration_s)
 ```
 Active Round Duration appears to have a mostly normal distribution with a mean of 82.68 seconds and a standard deviation of 30.78 seconds.
@@ -42,7 +43,9 @@ hist(df$opening_kill_seconds,
      ylab = "Frequency",
      col = "#FF0000")
 summary(df$opening_kill_seconds)
+#Standard Deviation
 sd(df$opening_kill_seconds)
+#IQR
 IQR(df$opening_kill_seconds)
 plot(df$active_round_duration_s ~ df$opening_kill_seconds, data = df,
      main = "Opening Kill (s) vs Active Round Duration (s)",
