@@ -43,6 +43,7 @@ hist(df$opening_kill_seconds,
      col = "#FF0000")
 summary(df$opening_kill_seconds)
 sd(df$opening_kill_seconds)
+IQR(df$opening_kill_seconds)
 plot(df$active_round_duration_s ~ df$opening_kill_seconds, data = df,
      main = "Opening Kill (s) vs Active Round Duration (s)",
      xlab = "Opening Kill (s)",
